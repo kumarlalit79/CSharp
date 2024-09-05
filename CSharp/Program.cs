@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CSharp;
+using System;
 
 // Defining a class
 public class Car
@@ -25,6 +26,10 @@ public  class Programming
         myCar.Model = "Callinum";
         myCar.Year = 2030;
         myCar.DisplayInfromation();
+
+
+        LearningGitGithub learningGitGithub = new LearningGitGithub();
+        learningGitGithub.github();
     }
 }
 
